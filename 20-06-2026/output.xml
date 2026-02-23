@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.12 on win32)" generated="2026-02-21T16:05:00.522445" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCases" source="E:\Nishchal\RobotFramework\20-06-2026\TestCases.robot">
+<test id="s1-t1" name="Verify Ecomerce Application" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-21T16:05:01.106092" level="INFO">Opening browser 'chrome' to base url 'https://automationexercise.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-21T16:05:01.105254" elapsed="6.195014"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-21T16:05:07.300782" elapsed="0.081046"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//a[normalize-space()='Signup / Login']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T16:05:07.382268" elapsed="0.048315"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-21T16:05:07.431128" level="INFO">Clicking element '//a[normalize-space()='Signup / Login']'.</msg>
+<arg>//a[normalize-space()='Signup / Login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T16:05:07.430836" elapsed="3.672619"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//h2[normalize-space()='Login to your account']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T16:05:11.103948" elapsed="0.024153"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T16:05:11.128622" level="INFO">Typing text 'nishu@gmail.com' into text field '//input[@data-qa='login-email']'.</msg>
+<arg>//input[@data-qa='login-email']</arg>
+<arg>nishu@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T16:05:11.128335" elapsed="0.238947"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T16:05:11.368322" level="INFO">Typing text 'Admin@123' into text field '//input[@placeholder='Password']'.</msg>
+<arg>//input[@placeholder='Password']</arg>
+<arg>Admin@123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T16:05:11.367712" elapsed="0.149991"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-21T16:05:11.518672" level="INFO">Clicking button '//button[normalize-space()='Login']'.</msg>
+<arg>//button[normalize-space()='Login']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T16:05:11.518139" elapsed="4.218585"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//a[contains(text(),'Test Cases')]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T16:05:15.738844" elapsed="0.792549"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-21T16:05:16.532504" level="INFO">Clicking element '//a[contains(text(),'Test Cases')]'.</msg>
+<arg>//a[contains(text(),'Test Cases')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T16:05:16.531885" elapsed="0.454352"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2026-02-21T16:05:22.278135" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-8.png"&gt;&lt;img src="selenium-screenshot-8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-21T16:05:22.278507" level="FAIL">Element '//b[normalize-space()='Test Cases']' not visible after 5 seconds.</msg>
+<arg>//b[normalize-space()='Test Cases']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-02-21T16:05:16.986734" elapsed="5.297308">Element '//b[normalize-space()='Test Cases']' not visible after 5 seconds.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-02-21T16:05:22.284397" elapsed="0.000226"/>
+</kw>
+<status status="FAIL" start="2026-02-21T16:05:01.104051" elapsed="21.181205">Element '//b[normalize-space()='Test Cases']' not visible after 5 seconds.</status>
+</test>
+<status status="FAIL" start="2026-02-21T16:05:00.550693" elapsed="21.735893"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestCases" id="s1" pass="0" fail="1" skip="0">TestCases</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

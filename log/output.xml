@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.12 on win32)" generated="2026-02-18T14:51:11.582558" rpa="false" schemaversion="5">
+<suite id="s1" name="Keywords" source="E:\Nishchal\RobotFramework\TestSuite\keywords.robot">
+<test id="s1-t1" name="Verify Login" line="6">
+<kw name="Login" owner="Resource">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T14:51:12.434576" level="INFO">Enter username</msg>
+<arg>Enter username</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T14:51:12.433516" elapsed="0.001549"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T14:51:12.436386" level="INFO">Enter password</msg>
+<arg>Enter password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T14:51:12.435616" elapsed="0.001034"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T14:51:12.437668" level="INFO">Click on login button</msg>
+<arg>Click on login button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T14:51:12.437009" elapsed="0.000876"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T14:51:12.438843" level="INFO">user is on the home page</msg>
+<arg>user is on the home page</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T14:51:12.438242" elapsed="0.000812"/>
+</kw>
+<status status="PASS" start="2026-02-18T14:51:12.431522" elapsed="0.007837"/>
+</kw>
+<status status="PASS" start="2026-02-18T14:51:12.429890" elapsed="0.009814"/>
+</test>
+<test id="s1-t2" name="Verify login with valid credentials" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T14:51:12.442272" level="INFO">User selects the product</msg>
+<arg>User selects the product</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T14:51:12.441578" elapsed="0.001177"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T14:51:12.444408" level="INFO">User add the product to the cart</msg>
+<arg>User add the product to the cart</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T14:51:12.443336" elapsed="0.001432"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T14:51:12.446347" level="INFO">user verifies the product with details</msg>
+<arg>user verifies the product with details</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T14:51:12.445312" elapsed="0.001492"/>
+</kw>
+<status status="PASS" start="2026-02-18T14:51:12.440628" elapsed="0.006743"/>
+</test>
+<status status="PASS" start="2026-02-18T14:51:11.653709" elapsed="0.795606"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Keywords" id="s1" pass="2" fail="0" skip="0">Keywords</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-18T14:51:11.561578" level="ERROR">Error in file 'E:\Nishchal\RobotFramework\TestSuite\keywords.robot' on line 16: Creating keyword '' failed: User keyword name cannot be empty.</msg>
+</errors>
+</robot>
